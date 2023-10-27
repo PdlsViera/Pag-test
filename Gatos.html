@@ -1,17 +1,79 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
     <title>Gatos</title>
+
+    <meta name="Página de gatos" content="Informações de gatos">
+    <meta charset="utf-8"> 
+
     <link rel="stylesheet" type="text/css" href="estilo.css">
+
+    <script type="text/javascript" src="Script.java">
+       
+    </script>
+
 </head>
+
 <Body>
     <h1>Gatos e suas características</h1>
+
     <h2>No dia a dia</h2>
     <p>Gostam de dormir muito, comida e água frescas e apreciam o espaço pessoal</p>
+
     <h2>Na caça</h2>
     <p>São silenciosos e muito calculistas</p>
-    <img src="imagem1.jpg">
-    <img src="imagem2.jpg">
-    <img src="imagem3.jpg">
+
+    <img src="Imagens/imagem1.jpg">
+    <img src="Imagens/imagem2.jpg">
+    <img src="Imagens/imagem3.jpg">
+
+    <p><input type="text" name="comentário" size="140"></p>
+
+    <table border="1" width="300 px" cellspacing ="10 px" cellpadding="4 px" background="Imagens/imagem4.jpg" align="center">
+        <caption>Felinos da casa</caption>
+        <thead><th colspan ="5" align="center" bgcolor="white">Meus gatos</th></thead>
+
+        <tbody align="center">
+            <tr><th bgcolor="white">Nome</th> <th bgcolor="white">Idade</th><th bgcolor="white">Cor</th></tr>
+            <tr>
+                <td><input type="text" name="nome"></td>
+                <td><input type="text" name="Idade"></td>
+                <td><input type="text" name="Cor"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="nome"></td>
+                <td><input type="text" name="Idade"></td>
+                <td><input type="text" name="Cor"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="nome"></td>
+                <td><input type="text" name="Idade"></td>
+                <td><input type="text" name="Cor"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="nome"></td>
+                <td><input type="text" name="Idade"></td>
+                <td><input type="text" name="Cor"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="nome"></td>
+                <td><input type="text" name="Idade"></td>
+                <td><input type="text" name="Cor"></td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr><th colspan ="5" align="center" bgcolor="white">Minha família felina</th></tr>
+        </tfoot>
+    </table>
+
+    <p id="data"></p>
+    <button type="button" onclick="mostraData()">Exibir Data</button>
+
+    <p id="data"></p>
+    <button type="button" onclick="mostraMensagem()">Exibir Mensagem</button>
 </Body>
+
 </html>
